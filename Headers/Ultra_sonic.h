@@ -10,6 +10,6 @@ public:
 
     // Returns distance in cm
     // Returns 0 if no echo or timeout
-    unsigned int GetDistance(float roundTripFactor = 0.01715f);
+    unsigned int GetDistance();
 };
 
