@@ -1,4 +1,4 @@
-#include "HC_SR04.h"
+#include "Ultra_sonic.h"
 #define TIME_OUT_GET_DISTANCE 30000
 
 HC_SR04::HC_SR04(byte trigPin, byte echoPin)
