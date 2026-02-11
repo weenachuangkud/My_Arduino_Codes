@@ -20,7 +20,7 @@ unsigned long HC_SR04::GetDistance()
     unsigned long duration = pulseIn(ECHO, HIGH, 30000); // ~5 meters max
 
     if (duration == 0) {
-        return 0;           // No echo / out of range
+        return 0;      // No echo out of range
     }
 
     // Speed of sound ≈ 343 m/s → 0.0343 cm/μs
