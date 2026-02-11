@@ -17,11 +17,10 @@ unsigned long HC_SR04::GetDistance()
     delayMicroseconds(10);
     digitalWrite(TRIG, LOW);
 
-    // Optional: add timeout (default pulseIn timeout is 1 second)
-    unsigned long duration = pulseIn(ECHO, HIGH, TIME_OUT_GET_DISTANCE); // ~5 meters max
+    unsigned long duration = pulseIn(ECHO, HIGH, TIME_OUT_GET_DISTANCE); 
 
     if (duration == 0) {
-        return 0;      // No echo out of range
+        return 0;
     }
 
     // Speed of sound ≈ 343 m/s → 0.0343 cm/μs
