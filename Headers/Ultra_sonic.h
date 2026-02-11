@@ -10,6 +10,6 @@ public:
 
     // Returns distance in cm
     // Returns 0 if no echo or timeout
-    unsigned long GetDistance();
+    unsigned ulong GetDistance();
 };
 
