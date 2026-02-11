@@ -2,8 +2,7 @@
     - Author: Mawin CK
     - Date: 2025
 */
-#ifndef ULTRA_SONIC
-#define ULTRA_SONIC
+#pragma once
 
 class HC_SR04 {
 private:
@@ -31,5 +30,3 @@ public:
         return distance;
     }
 };
-
-#endif
