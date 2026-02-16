@@ -1,4 +1,4 @@
-# My Arduino Codes
+# ARDUINO_PRACTICE
 All the little Arduino code I've done for learning and practice, studying in the past
 ## About
 
